@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Products</title>
+    <style>
+        .container {
+            width: 60%; 
+            margin: 20px auto; 
+            border: 2px solid #006400; 
+            background-color: #90EE90;
+        }
+        .row {
+            display: flex; 
+            border-bottom: 2px solid #006400; 
+        }
+        .row:last-child {
+            border-bottom: none; 
+        }
+        .cell {
+            flex: 1; 
+            padding: 10px; 
+            text-align: center; 
+            border-right: 2px solid #006400;
+        }
+        .cell:last-child {
+            border-right: none; 
+        }
+        .header {
+            color: black; 
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="row header">
+            <div class="cell">Product Name</div>
+            <div class="cell">Product Code</div>
+            <div class="cell">Product Price</div>
+        </div>
+        
+        <div class="row">
+            <div class="cell">Imc Garam Masala</div>
+            <div class="cell">2003701</div>
+            <div class="cell">130</div>
+        </div>
+        <div class="row">
+            <div class="cell">Green Chilli Pickle</div>
+            <div class="cell">2000601</div>
+            <div class="cell">120</div>
+        </div>
+        <div class="row">
+            <div class="cell">Aloe Amla Candy</div>
+            <div class="cell">1519701</div>
+            <div class="cell">140</div>
+        </div>
+        <div class="row">
+            <div class="cell">Imc Tumeric Powder</div>
+            <div class="cell">2003601</div>
+            <div class="cell">77</div>
+        </div>
+        <div class="row">
+            <div class="cell">Anti Oxidant Tea</div>
+            <div class="cell">1514001</div>
+            <div class="cell">145</div>
+        </div>
+    </div>
+
+</body>
+</html>
